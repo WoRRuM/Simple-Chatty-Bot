@@ -1,0 +1,21 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"log\"\n\t\"os\"\n\t\
+    \"reflect\"\n)\n\nfunc solve(s []string, x string, i int) []string {\n    // Write\
+    \ the code to make a copy of the 's' slice below:\n\tc := ?\n\t?(?, ?)\n\n\t//\
+    \ Assign x to the element at the 'i' index of the 'c' slice:\n\t?[?] = ?\n\n\t\
+    return ? // Return the copy of the slice here!\n}\n\n// DO NOT delete or modify\
+    \ the contents of the main function!\nfunc main() {\n\tvar i int\n\tvar x string\n\
+    \n\ts := make([]string, 1)\n\tscanner := bufio.NewScanner(os.Stdin)\n\tscanner.Scan()\n\
+    \ts[i], x = scanner.Text(), scanner.Text()\n\n\tn := solve(s, x, i)\n\tif !reflect.DeepEqual(s,\
+    \ n) {\n\t\tlog.Fatal(\"You didn't assign 'x' to the element at the 'i' index\
+    \ of the slice!\")\n\t}\n\tfmt.Println(n)\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15942#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 16 Jul 2022 11:25:16 UTC
+record: -1

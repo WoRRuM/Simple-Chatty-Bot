@@ -1,0 +1,23 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: |-
+    package main
+
+    import "fmt"
+
+    func main() {
+        var v int
+
+        // Put your code here
+
+        fmt.Println(?)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15469#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 15 Jul 2022 21:04:22 UTC
+record: -1

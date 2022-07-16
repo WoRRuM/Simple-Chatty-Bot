@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: representing Unicode CodePoint mapping;
+- text: writing between II and XII centuries on the territory of Northern and Western
+    Europe;
+- text: increasing the challenge of all creatures within the Attuned Expedition;
+- text: showing the conflict between Odin and Loki;
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15415#comment
+status: Solved
+record: -1

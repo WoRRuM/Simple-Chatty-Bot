@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport (\n\t\"fmt\"\n\t\"reflect\"\n)\n\nfunc solve() uint8\
+    \ {\n    // declare an uint8 type variable 'a' with a value of 10 below:\n   \
+    \ var ?\n\n    return a // do not delete this line!\n}\n\n// DO NOT delete or\
+    \ modify the contents of the main function!\nfunc main() {\n\ta := solve()\n\t\
+    if reflect.TypeOf(a).Name() == \"uint8\"{\n\t\tfmt.Println(a)\n\t}\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16876#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 15 Jul 2022 18:41:35 UTC
+record: -1
